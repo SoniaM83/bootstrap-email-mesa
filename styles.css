@@ -1,0 +1,51 @@
+
+/* Hamburger animation for active state */
+.dropdown-menu-right.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.dropdown-menu-right.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.dropdown-menu-right.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+/* Dropdown Menu Color */
+.dropdown-menu-right {
+  background-color: #B1ECC8;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown-menu-right::before,
+  .dropdown-menu-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 2px;
+  background-color: #000;
+}
+
+.dropdown-menu-right::before {
+  top: calc(50% - 6px);
+}
+
+.dropdown-menu-right::after {
+  top: calc(50% + 4px);
+}
+
+.dropdown-menu-right .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+/* Compose Button Color */
+.btn-compose {
+  background-color: #A1F8F8;
+}
