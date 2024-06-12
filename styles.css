@@ -15,14 +15,11 @@
 .btn-outline-secondary {
   background-color: #dab1e8;
 }
-.btn-secondary {
-  background color
-}
 
 .dropdown-menu {
   background-color: #B1ECC8;
 }
 .list-group-item-action.active {
-  background-color: #ADD8E6; /* Light blue background color */
+  background-color: #ADD8E6;
   color: #FFFFFF; /* White text color */
 }
