@@ -1,12 +1,20 @@
 /* Dropdown Menu Color */
-.dropdown {
+.btn-secondary {
   background-color: #B1ECC8;
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-/* Compose Button Color */
-.btn-compose {
-  background-color: #A1F8F8;
+/* COMPOSE Button Color */
+.btn-primary {
+  background-color: #4ac3c3;
+}
+
+/*SEARCH button*/
+.btn-outline-secondary {
+  background-color: #dab1e8;
+}
+.btn-secondary {
+  background color
 }
