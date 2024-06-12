@@ -1,3 +1,12 @@
+.list-group-item-action.active {
+  background-color: #447bb6;
+  color: white;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
 /* Dropdown Menu Color */
 .btn-secondary {
   background-color: #dc9aa3;
@@ -14,12 +23,9 @@
 /*SEARCH button*/
 .btn-outline-secondary {
   background-color: #dab1e8;
+  color: white;
 }
 
 .dropdown-menu {
   background-color: #B1ECC8;
-}
-.list-group-item-action.active {
-  background-color: #ADD8E6;
-  color: #FFFFFF; /* White text color */
 }
