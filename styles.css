@@ -1,5 +1,9 @@
+body {
+  background-color: #e4ded0
+}
+
 .list-group-item-action.active {
-  background-color: #447bb6;
+  background-color: #709bca;
   color: white;
 }
 
@@ -7,6 +11,7 @@
   background-color: #f0f0f0;
   color: #333;
 }
+
 /* Dropdown Menu Color */
 .btn-secondary {
   background-color: #dc9aa3;
@@ -28,4 +33,12 @@
 
 .dropdown-menu {
   background-color: #B1ECC8;
+}
+.dropdown-item-action.active {
+  background-color: #f0e2c4;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(207, 206, 206);
 }
