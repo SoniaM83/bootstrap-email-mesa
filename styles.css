@@ -42,3 +42,22 @@ body {
 .dropdown-item:hover {
   background-color: rgb(207, 206, 206);
 }
+.list-group-item{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card-title,
+.card-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .list-group-item,
+  .card-title,
+  .card-text {
+    white-space: normal;
+  }
+}
