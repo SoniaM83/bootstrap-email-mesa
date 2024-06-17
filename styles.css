@@ -2,6 +2,9 @@ body {
   background-color: #e4ded0
 }
 
+.list-group {
+  margin: px;
+}
 .list-group-item-action.active {
   background-color: #709bca;
   color: white;
